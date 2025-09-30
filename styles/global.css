@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+
+body {
+  background-color: aqua;
+}
+
+
+section {
+  padding: 50px 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.home-container {
+  background: url("./imagem1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-container section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.content h3 {
+  color: #000;
+  font-size: 50px;
+}
+
+.content p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.8;
+  padding: 1px 0;
+}
